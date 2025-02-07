@@ -1,4 +1,36 @@
 .header {
     position: relative;
-    background: url(headercropattu.png) no-repeat center center / cover;
+    background: url(headercropattu.png) no-repeat center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.headerotsikko {
+    text-align: center;
+}
+
+.headernav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.9); 
 }
