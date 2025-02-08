@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-bottom: 2px solid darkblue;
 }
 
 .headerotsikko {
@@ -60,18 +61,17 @@ body {
     flex: 1;
 }
 
-/* Ice-Colored Box */
 .ice-box {
-    background-color: #a3d8f4; /* Light blue color for an icy effect */
-    color: #fff; /* White text for contrast */
+    background-color: #a3d8f4; 
+    color: #fff; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .ice-box h3 {
-    color: #0077b6; /* Slightly darker blue for the title */
+    color: #0077b6; 
 }
 
 .ice-box p {
-    color: #003d5b; /* Dark blue for the text for readability */
+    color: #003d5b; 
 }
