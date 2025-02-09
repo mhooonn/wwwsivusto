@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-bottom: 2px solid darkblue;
+    border-bottom: 2px solid black;
 }
 
 .headerotsikko {
@@ -15,6 +15,9 @@
     color: white;
     font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    border-radius: 10px;
 }
 
 .headernav .list-inline {
