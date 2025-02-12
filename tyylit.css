@@ -1,3 +1,4 @@
+/* Header */
 .header {
     position: relative;
     background: url(headercropattu.png) no-repeat center center;
@@ -53,6 +54,7 @@
     transform: translateY(1px); 
 }
 
+/* sisältö */
 body {
     margin: 0;
     display: flex;
@@ -64,6 +66,16 @@ body {
     flex: 1;
 }
 
+.background-color {
+    background-color: #f8f9fa; 
+    padding: 40px; 
+    margin-top: -50px;  
+    margin-bottom: -50px;  
+    z-index: -1; 
+    position: relative;
+}
+
+/* Etusivun tekstiboxi */
 .ice-box {
     background-color: #a3d8f4; 
     color: #fff; 
@@ -79,6 +91,7 @@ body {
     color: #003d5b; 
 }
 
+/* Yhteystiedot sivun tekstiboxi */
 .text-box {
     margin-right: 10px;
     background-color: lightgray;  
